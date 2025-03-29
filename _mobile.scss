@@ -1,0 +1,211 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 767px / 2);
+    padding-right: calc(50% - 767px / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+  }
+  .heading {
+    background-image: url(./imgs/Star__big_mobile.svg),
+      url(./imgs/Star__medium_mobile.svg), url(./imgs/Star__little_mobile.svg),
+      url(./imgs/Starmedium__right_mobile.svg),
+      url(./imgs/Starlittle__right_mobile.svg);
+    background-position: 220px -84px, 37px 97px, 91px 64px, 303px 660px,
+      272px 640px;
+  }
+  .header {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: center;
+    &__text {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+      display: none;
+    }
+    &__text_mobile {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      text-align: center;
+    }
+    &__button {
+      display: block;
+      margin: auto;
+      width: 285px;
+      height: 65px;
+      font-size: 16px;
+      line-height: 141.69%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .navbar {
+    height: 51px;
+    gap: 88px;
+    background-position: 166px 16px;
+    background-size: 19px 19px; 
+    &__item {
+      font-size: 16px;
+      white-space: nowrap;
+    }
+    &__mobile {
+      width: 19px;
+      height: 19px;
+    }
+  }
+
+  .scroll__content {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+  }
+
+  .about {
+    padding-top: 48px;
+    &__header {
+      display: none;
+    }
+    &__mobile {
+      display: block;
+      margin-left: 16px;
+      margin-bottom: 42px;
+      font-size: 40px;
+      line-height: 49px;
+      color: white;
+    }
+    &__text {
+      display: none;
+    }
+  }
+  .games {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-row-gap: 16px;
+    justify-content: start;
+    justify-items: center;
+    grid-column-gap: 16px;
+    padding-bottom: 48px;
+  }
+  .articles {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    &__first {
+      height: 544px;
+      width: 345px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    &__second {
+      height: 584px;
+      width: 345px;
+      margin-bottom: 16px;
+    }
+    &__third {
+      height: 584px;
+      width: 345px;
+      margin-bottom: 12px;
+    }
+    &__fourth {
+      height: 622px;
+      width: 345px;
+    }
+    &__fifth {
+      height: 580px;
+      width: 345px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+    &__sixth {
+      height: 638px;
+      width: 345px;
+      margin-bottom: 32px;
+    }
+    &__number {
+      display: none;
+    }
+    &__name {
+      font-size: 32px;
+      margin-top: 20px;
+      margin-bottom: 16px;
+      padding: 0;
+    }
+    &__desc {
+      display: block;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 285px;
+      height: 55px;
+      border-radius: 60px;
+      background-color: black;
+      color: white;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 32px;
+    }
+    &__mobile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    &__second {
+      margin-left: 32px;
+    }
+  }
+
+  .mini-games {
+    display: none;
+  }
+  .mini-articles {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+    width: 375px;
+    height: 100px;
+    background-color: rgb(189, 237, 53);
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    align-content: center;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 978px) and (min-width: 767px) {
+  .center {
+    padding-left: calc(50% - 978px / 2);
+    padding-right: calc(50% - 978px / 2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-x: hidden;
+  }
+}
